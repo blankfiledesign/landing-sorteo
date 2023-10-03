@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+  }
+  
+
 body {
     font-family: 'Montserrat', sans-serif;
 font-family: 'Quicksand', sans-serif;
@@ -15,6 +20,7 @@ font-family: 'Quicksand', sans-serif;
 .window{
     text-align: center;
     margin: 0;
+    
 }
 
 .modal { 
@@ -22,7 +28,7 @@ font-family: 'Quicksand', sans-serif;
     z-index: 998;
     width: 100%;
     height: 100vh;
-    position: absolute;
+    position: fixed;
     background: rgba(0, 0, 0, 0.8);
     top: 0;
     left: 0;
